@@ -1,0 +1,28 @@
+/* 3rd method to set a color */
+h3{
+    color: blue;
+}
+
+.bOne{
+    color: white;
+    background-color: green;
+}
+
+body{
+    background-color: white;
+}
+
+/* * {
+    color: pink ;
+} */
+
+.heading{
+    color: red;
+}
+
+#box {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    width: 250px;
+}
