@@ -1,19 +1,27 @@
 *{
-    font-family: 'Times New Roman';
-}
-h1{
-    text-align: center;
-    text-transform: uppercase;
-}
-
-p{
-    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+   ;
+    color: white;
 }
 
-#outer{
+#logo{
     font-size: 25px;
+    color: #f08804;
+
 }
 
-#inner{
-    font-size: 10px;
+#navbar{
+    background-color: #0f1111;
+    height: 60px;
+    
+}
+
+button{
+    background-color: #f08804;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
 }
