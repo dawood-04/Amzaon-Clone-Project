@@ -1,27 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-   ;
-    color: white;
+#navbar{
+    color: #0f1111;
+    height: 60px ;
 }
 
 #logo{
-    font-size: 25px;
+    size: 25px;
     color: #f08804;
-
 }
 
-#navbar{
-    background-color: #0f1111;
-    height: 60px;
-    
-}
 
-button{
-    background-color: #f08804;
-}
-
-a{
-    margin-right: 200px;
-    text-decoration: none;
+.contentbox{
+    height: 100px;
+    width: 100px;
 }
