@@ -1,0 +1,31 @@
+ul{
+    background-color: grey;
+    display: flex; 
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+li{
+    list-style-type:none ;
+
+}
+
+.outer{
+    height: 300px;
+    width: 300px;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
