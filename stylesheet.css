@@ -1,0 +1,18 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 15px solid #F7EC59;
+    border-top: 15px solid #2B2D42;
+    animation: Spinanime 3s ease-in 0s infinite normal;
+    
+}
+
+@keyframes Spinanime {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
