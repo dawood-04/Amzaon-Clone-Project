@@ -201,12 +201,14 @@ span{
 }
 .box{
     /* border: 2px solid black; */
-    height: 400px;
+    height: 450px;
     width: 23%;
     background-color: white;
-    padding: 20px 0px 15px ;
+    padding: 20px 15px ;
     margin-top: 15px;
+    width: calc(25% - 15px);
     box-sizing: border-box;
+
 }
 
 /* box1 */
@@ -225,8 +227,29 @@ span{
 
 .box-content a {
     color:#007185 ;
+    text-decoration: none;
 }
 
+footer{
+    margin-top: 25px;
+    clear : both ;
+    width: 100%;
+}
+.foot-panal1 {
+    width: 100%;
+    background-color: #232f3e;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.foot-panal1 a {
+    color: white;
+    text-decoration: none;
+    
+}
 
 
 
