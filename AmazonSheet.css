@@ -59,7 +59,7 @@
     display: flex ;
     justify-content: space-evenly;
     background-color: aqua;
-    width: 620px;
+    width: 950px;
     height: 40px;
     border-radius: 10px;
 }
@@ -151,27 +151,45 @@ span{
 .panal-option{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 5px;
-    width: 70%;
+    width: 100%;
     font-size: 14px;
 }
 .panal-option a {
     border: 1px solid transparent;
     padding: 8px 6px;
-    display: inline-block;
     color: white; 
     text-decoration: none;
+    font-size: 0.85rem;     
+}
+
+/* Hero section */
+
+.hero-section{
+    background-image: url("hero.jpg");
+    background-size: cover ;
+    height: 350px;
+    width: 100%;
+    display: flex ;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    height: 40px;
+    width: 95%;
+    background-color: white;
+    color: black;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
     font-size: 0.85rem;
-    
+    margin-bottom: 20px;
 }
 
-.panal-option a :hover {
-    border: 1px solid white;
+.hero-msg a {
+    text-decoration: none ;
+    color:#007185 ;
 }
-
-
-
 
 
 
